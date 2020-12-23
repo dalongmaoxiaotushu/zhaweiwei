@@ -1,0 +1,35 @@
+centos£º
+
+ git --version
+  412  yum install git
+  413  yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+  
+  415  cd /home/zhaweiwei
+  416  ls
+  417  mkdir MarkDown
+  418  cd MarkDown/
+  
+  420  git init
+  
+  422  git status
+  423  git add ×ÔÐÞ±Ê¼Ç
+  424  git status
+  
+  426  git config --global user.name "zhaweiwei"
+  427  git config --global user.email "sa517009@mail.ustc.edu.cn"
+
+       git commit -m "2020-12-23"
+  429  git status
+  
+ 
+ 
+  442  ssh-keygen -t rsa -b 4096 -C "sa517009@mail.ustc.edu.cn"
+  443  cat /root/.ssh/id_rsa.pub
+  44
+  451  git remote add origin git@github.com:dalongmaoxiaotushu/zhaweiwei.git
+  452
+  453 
+  454  git pull origin master
+  455  
+  456 
+  458  git push -u origin master
