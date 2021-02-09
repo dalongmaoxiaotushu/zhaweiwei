@@ -1,4 +1,4 @@
-# openssl颁发证书
+﻿# openssl颁发证书
 
 ## 基本概念
 1. 双方通信，需要一个中间权威机构帮助双方交换彼此的public.key;不然二者直接交换存在中间串改或者假装对方发送黑客自己的public.key的情况
@@ -158,6 +158,7 @@ x509_extensions = usr_cert              # The extentions to add to the cert<br/>
 
 
 
+openssl x509 -outform der -in ca.pem -out ca.crt   pem转换成crt
 
 
 
